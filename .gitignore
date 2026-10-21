@@ -1,0 +1,49 @@
+# Скомпільовані об'єктні файли
+*.slo
+*.lo
+*.o
+*.obj
+ 
+# Скомпільовані динамічні та статичні бібліотеки
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+ 
+# Виконувані файли (програми)
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+ 
+# Папки збірки (куди складаються результати компіляції)
+build/
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+ 
+# Файли конфігурації CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+ 
+# Налаштування IDE (Visual Studio, CLion, VS Code)
+.vs/
+*.user
+*.suo
+*.sln.docstates
+.idea/
+cmake-build-*/
+.vscode/
